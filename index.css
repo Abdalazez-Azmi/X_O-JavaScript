@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+table tbody tr td{
+    padding: 100px;
+    background-color: rgb(37, 53, 19);
+    font-size: 120px;
+    margin-right: 150px;
+    color: white;
+}
+
+table tbody tr :hover{
+    transition:  ease-in 0.4s ;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+}
+
+table tbody tr{
+    margin-right: 250px;
+    height: 150px;
+}

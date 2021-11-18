@@ -8,6 +8,8 @@ if(event.target.innerHTML = 'x'){
 }
 
 
+console.log(4)
+
  
   
 

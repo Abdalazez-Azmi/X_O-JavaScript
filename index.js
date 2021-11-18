@@ -1,5 +1,7 @@
 let values = document.getElementsByClassName("values");
 let winner = document.getElementById("winner");
+let audio = new Audio('victory.mp3')
+
 
 const game = () => {
   event.target.innerHTML = 'x'
@@ -8,7 +10,6 @@ if(event.target.innerHTML = 'x'){
 }
 
 
-console.log(4)
 
  
   
@@ -44,7 +45,7 @@ console.log(4)
   ) {
     // console.log(event.target.innerHTML)
     winner.innerHTML = " The Winner is x";
-    console.log(values[0].innerHTML);
+    audio.play()
   } else if (
     (values[0].innerHTML === "o" &&
       values[1].innerHTML === "o" &&
@@ -75,5 +76,9 @@ console.log(4)
       values[8].innerHTML === "o")
   ) {
     winner.innerHTML = " The Winner is O";
+    audio.play()
+  }else{
+    winner.innerHTML= 'No one win'
   }
+
 };

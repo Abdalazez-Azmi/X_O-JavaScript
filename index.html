@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div class="th-con ">
+      <div class="head f-1" id="counts"></div>
+      <button class="head f-2" onclick="mute()">Mute</button>
+      <button class="head f-3" onclick="again()">Play Again</button>
+    </div>
+
     <div class="container">
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
-        <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
+      <div onclick="game()" class="boxes values"></div>
     </div>
     <div class="s-con">
-        <div id="winner"></div>
-
+      <div id="winner"></div>
     </div>
-   <div>
-       <audio>
-
-           <source  type="audio/mp3" src="victory.mp3">
-       </audio>
-
-   </div>
-
+    <div>
+      <audio>
+        <source type="audio/mp3" src="victory.mp3" />
+      </audio>
+    </div>
 
     <script src="index.js"></script>
   </body>
